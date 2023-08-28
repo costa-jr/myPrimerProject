@@ -1,0 +1,90 @@
+/* ----- GENERAL ----- */
+
+* {
+    font-family: "Futura", sans-serif;
+    color: dimgray;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* - typography - */
+h1 {
+    font-size: 16 px;
+}
+
+
+/* - links - */
+a {
+    color: dimgray;
+    text-decoration: none;
+}
+a:hover {
+    color: darkgray;
+    text-decoration: underline;
+}
+a:active {
+    color: lightgray;
+}
+a:active {
+    color: darkgray;
+}
+
+
+/* ----- HEADER ----- */
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.nav li:not(:last-child) {
+    margin-right: 50px;
+}
+
+.logo {
+    flex-shrink: 0;
+    margin-left: 50px;
+}
+
+
+
+/* ----- STRUCTURE ----- */
+
+.contactContainer {
+    margin: 50px;
+    width: 100%;
+}
+
+.contentBox {
+    margin: 100px;
+}
+
+
+/* ----- FOOTER ----- */
+
+
+.footer {
+    padding: 50px;
+    display: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    list-style: none;
+}
+
